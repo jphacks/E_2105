@@ -91,5 +91,7 @@
 	
 
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
-* [Tensor SOM](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
-* [トピック分解](https://ieeexplore.ieee.org/document/9322683)
+* [tensor SOM and tensor GTM: nonlinear tensor analysis by topographic mappings](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
+　* 生成モデルとしてTensor SOMを採用
+* [Simultaneous Visualization of Documents, Words and Topics by Tensor Self-Organizing Map and Non-negative Matrix Factorization](https://ieeexplore.ieee.org/document/9322683)
+  * クラスタ表示（トピック分解）を採用
