@@ -25,14 +25,17 @@
 
 ### 特長
 
-#### 1. 特長1　検索したキーワードにまつわる論文と単語の類似度の可視化
+#### 1. 特長1　類似度強調表示：検索したキーワードにまつわる論文と単語の類似度の可視化
 
-　論文マップでは似たような論文は近くの位置に配置されます．同様に，単語マップでも似たような単語は近くの位置に配置されます．マップをみるだけでそれぞれの類似度を一目で把握することができます．（従来の検索エンジンでは１次元的に配置されるためスクロール・ページの切り替えをする必要がありました．）
+　<span style="color: red; ">論文マップ</span>では似たような論文は近くの位置に配置されます．同様に，単語マップでも似たような単語は近くの位置に配置されます．マップをみるだけでそれぞれの類似度を一目で把握することができます．（従来の検索エンジンでは１次元的に配置されるためスクロール・ページの切り替えをする必要がありました．）
+
+![image](https://user-images.githubusercontent.com/12492226/139524912-f20c9a82-619f-400d-87fc-db8ea5d53a41.png)
+
 
 　類似度の詳細をさらに知りたいときは，U-matrix表示に切り替えることで類似度の情報を詳細に表示できます．この彩色は一種の「海図」と思ってもらえればわかりやすいです．深い青は深海を表しており，この「溝」が隔だれた境界はマップ上で距離が近くても，データ的には類似度は低いことを表しています．
 
 
-#### 2. 特長2　要素単位で着目した情報の可視化
+#### 2. 特長2　ターゲット解析：要素単位で着目した情報の可視化
 
 　CCP（Conditional Component Plane）表示では，一つの要素に着目して解析したいときに使える描画法です．
 
@@ -41,7 +44,7 @@
 
 
 
-#### 3. 特長3　クラスタ/トピック情報の可視化
+#### 3. 特長3　クラスタ表示：トピック情報の可視化
 
 　クラスタ表示では，論文の分野情報について知りたいときに使える描画法です．論文と単語の関係をクラスタリング（トピック分解）して，論文と単語の関係をある程度まとまった解像度で見ることができます．
 
@@ -67,7 +70,7 @@
 ## 開発技術
 ### 活用した技術
 #### API・データ
-* arXiv API（https://arxiv.org/help/api/）
+* [arXiv API](https://arxiv.org/help/api/)
 
 
 #### フレームワーク・ライブラリ・モジュール
@@ -88,8 +91,9 @@
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
  * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/jax_tsom.py
- * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py
-	
+   * モデル学習時間の削減のためjaxモジュールの適用
+
+ * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py 
 
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * [tensor SOM and tensor GTM: nonlinear tensor analysis by topographic mappings](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
