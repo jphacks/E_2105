@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  exploresearchsystem:
+    image: fi-lab-app
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - PORT=${PORT:-8000}
+    ports:
+      - "8000:${PORT:-8000}"
+    volumes:
+      - ".:/app"
