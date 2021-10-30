@@ -1,6 +1,5 @@
 # 論文探索システム
-
-[![IMAGE ALT TEXT HERE](https://jphacks.com/wp-content/uploads/2021/07/JPHACKS2021_ogp.jpg)](https://youtu.be/akDnAefDHLo)
+[![SAMUNE](https://user-images.githubusercontent.com/12492226/139518051-a9726c50-047b-448b-b7e4-97d594cf459f.png)](https://youtu.be/akDnAefDHLo)
 
 ## 製品概要
 ### 論文探し×Tech
