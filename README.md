@@ -1,5 +1,7 @@
 # 論文探索エンジン
-[![SAMUNE](https://user-images.githubusercontent.com/12492226/139518051-a9726c50-047b-448b-b7e4-97d594cf459f.png)](https://youtu.be/akDnAefDHLo)
+[![SAMUNE](https://user-images.githubusercontent.com/12492226/139518051-a9726c50-047b-448b-b7e4-97d594cf459f.png)](https://youtu.be/C5UZUGSw4uI)
+
+↑ クリックで動画再生！
 
 ## 製品概要
 ### 論文探し×Tech
