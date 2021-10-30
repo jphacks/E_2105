@@ -71,17 +71,17 @@
 
 #### フレームワーク・ライブラリ・モジュール
 * バックエンド
-	（可視化）Dash, Plotly
-	（前処理）nltk,  sklearn
-	（モデル）numpy, jax
+ * （可視化）Dash, Plotly
+ * （前処理）nltk,  sklearn
+ * （モデル）numpy, jax
 * アプリケーション
-	Dash
+ * Dash
 *  デザイン
-	Dash
-	Bootstrap
+ * Dash
+ * Bootstrap
 
 #### デバイス
-* PC
+* PC・Webブラウザ
 
 
 ### 独自技術
