@@ -86,13 +86,10 @@
 
 ### 独自技術
 #### ハッカソンで開発した独自機能・技術
-* 独自で開発したものの内容をこちらに記載してください
-* 特に力を入れた部分をファイルリンク、またはcommit_idを記載してください。
-	
-	https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/jax_tsom.py
-	https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py
+ * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/jax_tsom.py
+ * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py
 	
 
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * [Tensor SOM](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
-* [トピック分解](野口君)
+* [トピック分解](https://ieeexplore.ieee.org/document/9322683)
