@@ -117,7 +117,8 @@
    * モデル学習時間の削減のためjaxモジュールの適用
 
  * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py 
-
+  * マップを使って様々な対話的な解析ができるようにイベントを設定
+ 
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * [tensor SOM and tensor GTM: nonlinear tensor analysis by topographic mappings](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
 　* 生成モデルとしてTensor SOMを採用
