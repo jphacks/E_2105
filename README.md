@@ -131,8 +131,8 @@
   - 方針：一般の情報検索のサポートを支援するため，検索エンジンででてくる結果を二次元で表示．
   - [プロト開発リポジトリ](https://github.com/hirowatari-s/ExploreSearchSystem)
  
-- 10/16~ 本開発：
-  - 方針：論文検索に特化．それに伴いデータ学習の問題設定を変更．
+- 10/16~ 本開発
+  - 方針：論文検索に特化．それに伴いデータ学習の問題設定を変更し，学習モデルを変更・描画の追加．
   - [本開発リポジトリ](https://github.com/furukawa-laboratory/ExploreSearchSystem)
  
 ### 発表
