@@ -127,13 +127,13 @@
 ### 開発詳細
 #### 開発期間
 - 9/26~10/2 プロト開発
-
-　 　- 方針：一般的な情報検索支援ツールとして開発
+  - 方針：一般の情報検索のサポートを支援するため，検索エンジンででてくる結果を二次元で表示．
   - [プロト開発リポジトリ](https://github.com/hirowatari-s/ExploreSearchSystem)
+ 
 - 10/16~ 本開発：
-
   - 方針：論文検索に特化．それに伴いデータ学習の問題設定を変更．
   - [本開発リポジトリ](https://github.com/furukawa-laboratory/ExploreSearchSystem)
+ 
 ### 発表
 #### [発表資料](https://docs.google.com/presentation/d/1MlEogvgXBIyugUXOIxFgtmlw_4bAhqIBLN0kdy4dUok/edit?usp=sharing)
 
