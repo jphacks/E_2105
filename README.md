@@ -10,6 +10,9 @@
 
 > 論文探索システムは，arXiv のデータベースと AI 技術を活用した論文探しをサポートする Web アプリケーションです．２つのマップと3種類の可視化方法で新しい論文探索体験を提供します．
 
+![image](https://user-images.githubusercontent.com/12492226/139788581-a60f021d-dce8-4844-ae05-a750d07369f8.png)
+
+
 ### 背景(製品開発のきっかけ、課題等）
 　論文探し/論文サーベイは研究者や大学院生にとって自分の研究の手がかりを探したり，立ち位置やアピールポイントを確立するために必要不可欠である．
 
@@ -65,9 +68,10 @@
 
 ### 今後の展望
 * 論文の被引用関係情報を取り入れてよりリッチな情報を提供する．
+* 著者情報も対話的解析ができるようにする．
 * 単語マップ上で複数の単語を選択できるようにし，AND・OR検索を可能にする．
-* 検索履歴のログを取れるようにして，検索の補完を効かせる．
-* ユーザーからアンケート収集し，有用性の評価を行う．
+* 検索履歴のログを取れるようにして，検索の補完を効かせたり・検索keywordのリコメンドをおこなう．
+* 本システムを使うことにより情報検索の時間が削減できることを定量的に示す．
 
 ### 注力したこと（こだわり等）
 * 表示するだけでなく，ユーザーが情報を探索するのを補助する機能
@@ -84,6 +88,7 @@
 
 #### フレームワーク・ライブラリ・モジュール
 * バックエンド
+![image](https://user-images.githubusercontent.com/12492226/139787540-ebcedf7a-a6e9-48d0-82ab-e49e6573a0a0.png)
   * （可視化）Dash, Plotly
   * （前処理）nltk,  sklearn
   * （モデル）numpy, jax
@@ -92,6 +97,15 @@
 *  デザイン
    * Dash
    * Bootstrap
+
+
+#### 機械学習
+![image](https://user-images.githubusercontent.com/12492226/139788668-66c866cb-2810-4f98-bd48-61ca17a24f01.png)
+- 非線形テンソル分解: Tensor SOM
+ - テンソルデータから，ドメインごとに要素の低次元の表現から潜在空間から観測空間への写像を獲得
+- トピック分解: NMF
+　- 写像行列に対して非負値の制約をかけて行列分解
+
 
 #### デバイス
 * PC・Webブラウザ
@@ -109,3 +123,15 @@
 　* 生成モデルとしてTensor SOMを採用
 * [Simultaneous Visualization of Documents, Words and Topics by Tensor Self-Organizing Map and Non-negative Matrix Factorization](https://ieeexplore.ieee.org/document/9322683)
   * クラスタ表示（トピック分解）を採用
+
+### 開発詳細
+#### 開発期間
+- 9/26~10/2 プロト開発
+　　- 方針：一般的な情報検索支援ツールとして開発
+ - [プロト開発リポジトリ](https://github.com/hirowatari-s/ExploreSearchSystem)
+- 10/16~ 本開発：
+ - 方針：論文検索に特化．それに伴いデータ学習の問題設定を変更．
+ - [本開発リポジトリ](https://github.com/furukawa-laboratory/ExploreSearchSystem)
+### 発表
+#### [発表資料](https://docs.google.com/presentation/d/1MlEogvgXBIyugUXOIxFgtmlw_4bAhqIBLN0kdy4dUok/edit?usp=sharing)
+
