@@ -102,9 +102,9 @@
 #### 機械学習
 ![image](https://user-images.githubusercontent.com/12492226/139788668-66c866cb-2810-4f98-bd48-61ca17a24f01.png)
 - 非線形テンソル分解: Tensor SOM
- - テンソルデータから，ドメインごとに要素の低次元の表現から潜在空間から観測空間への写像を獲得
+  - テンソルデータからドメインごとの要素に関する低次元の表現と潜在空間から観測空間への写像を獲得
 - トピック分解: NMF
-　- 写像行列に対して非負値の制約をかけて行列分解
+  - 写像行列に対して非負値の制約をかけて行列分解
 
 
 #### デバイス
@@ -117,11 +117,11 @@
    * モデル学習時間の削減のためjaxモジュールの適用
 
  * https://github.com/furukawa-laboratory/ExploreSearchSystem/blob/main/webapp/event_handler.py 
-  * マップを使って様々な対話的な解析ができるようにイベントを設定
+   * マップを使って様々な対話的な解析ができるようにイベントを設定
  
 #### 製品に取り入れた研究内容（データ・ソフトウェアなど）（※アカデミック部門の場合のみ提出必須）
 * [tensor SOM and tensor GTM: nonlinear tensor analysis by topographic mappings](https://www.sciencedirect.com/science/article/pii/S0893608016000149)
-　* 生成モデルとしてTensor SOMを採用
+  * 生成モデルとしてTensor SOMを採用
 * [Simultaneous Visualization of Documents, Words and Topics by Tensor Self-Organizing Map and Non-negative Matrix Factorization](https://ieeexplore.ieee.org/document/9322683)
   * クラスタ表示（トピック分解）を採用
 
